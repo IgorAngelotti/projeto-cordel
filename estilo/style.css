@@ -59,7 +59,8 @@ section{
 section > p{
     font:  1em  var(--fonte3);
     line-height: 2em;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -70,14 +71,27 @@ section.normal{
 section.imagem{
     background-color: #525050;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.281);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.356);
     padding: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
+section#imagem1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#imagem2{
+    background-image: url(../imagens/background002.jpg)
+    ;  
+}
 
 
 
